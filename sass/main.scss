@@ -1,11 +1,11 @@
-@import "base";
-@import "typography";
+@forward 'base';
+@forward 'typography';
 
-@import "sidebar";
-@import "header";
-@import "realtors";
-@import "features";
-@import "story";
-@import "homes";
-@import "gallery";
-@import "footer";
+@forward 'sidebar';
+@forward 'header';
+@forward 'realtors';
+@forward 'features';
+@forward 'story';
+@forward 'homes';
+@forward 'gallery';
+@forward 'footer';
