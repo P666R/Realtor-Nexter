@@ -1,0 +1,7 @@
+@use './base' as variables;
+
+.sidebar {
+  background-color: variables.$color-primary;
+  grid-column: sidebar-start / sidebar-end;
+  grid-row: 1/-1;
+}

@@ -1,0 +1,6 @@
+@use './base' as variables;
+
+.footer {
+  background-color: variables.$color-secondary;
+  grid-column: full-start/full-end;
+}
