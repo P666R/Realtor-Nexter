@@ -11,12 +11,24 @@
   justify-items: center;
   row-gap: 2rem;
 
+  @media only screen and (max-width: variables.$bp-medium) {
+    grid-column: 1 / -1;
+  }
+
   &__list {
     display: grid;
     grid-template-columns: min-content max-content;
     column-gap: 2rem;
     row-gap: 5vh;
     align-items: center;
+
+    @media only screen and (max-width: variables.$bp-medium) {
+      grid-template-columns: repeat(3, min-content max-content);
+    }
+
+    @media only screen and (max-width: variables.$bp-small) {
+      grid-template-columns: min-content max-content;
+    }
   }
 
   &__img {
