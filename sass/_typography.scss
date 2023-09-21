@@ -7,6 +7,10 @@
 
 .heading-1 {
   @extend %heading;
+
+  font-size: 4.5rem;
+  color: variables.$color-grey-light-1;
+  line-height: 1;
 }
 
 .heading-2 {
